@@ -105,3 +105,4 @@ dist
 
 # Additional directories
 packages/**/bin/
+clean.sh

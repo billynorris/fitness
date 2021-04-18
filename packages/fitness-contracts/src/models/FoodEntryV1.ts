@@ -1,4 +1,7 @@
 export class FoodEntryV1 {
+
+  id?: string;
+
   foodName: string;
 
   mealType: string;
