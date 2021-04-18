@@ -3,9 +3,9 @@
 import fs from 'fs';
 import path from 'path';
 import log from '@dazn/lambda-powertools-logger';
+import FoodEntryV1 from '@billynorris/fitness-contracts';
 import FitbitClient from './clients/FoodClient';
 import FitBitFoodEntryV1 from './models/fitbit/FitbitFoodEntryV1';
-import FoodEntryV1 from './models/FoodEntryV1';
 
 export default class FoodService {
   private client: FitbitClient;

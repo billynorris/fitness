@@ -1,7 +1,7 @@
 {
-  "name": "fitbit-service",
+  "name": "my-fitness-pal-service",
   "version": "1.0.0",
-  "description": "Fitbit utility services",
+  "description": "My fitness pal utility services",
   "main": "bin/index.js",
   "types": "bin/index.d.ts",
   "files": [
@@ -17,6 +17,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/aws-lambda": "^8.10.75",
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.28",
     "@types/node": "^14.11.2",
     "@typescript-eslint/eslint-plugin": "^4.5.0",
     "eslint": "^7.11.0",
@@ -28,8 +31,9 @@
   },
   "dependencies": {
     "@dazn/lambda-powertools-logger": "^1.21.0",
-    "@billynorris/fitness-contracts": "^1.0.0",
-    "axios": "^0.21.0"
+    "aws-lambda": "^1.0.6",
+    "axios": "^0.21.0",
+    "cheerio": "^1.0.0-rc.6"
   },
   "eslintConfig": {
     "root": true,
