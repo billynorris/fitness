@@ -1,5 +1,5 @@
 {
-  "name": "fitbit-service",
+  "name": "@billynorris/fitbit-service",
   "version": "1.0.0",
   "description": "Fitbit utility services",
   "main": "bin/index.js",
